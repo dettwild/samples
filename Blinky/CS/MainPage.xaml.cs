@@ -11,7 +11,7 @@ namespace Blinky
 {
     public sealed partial class MainPage : Page
     {
-        private const int LED_PIN = 5;
+        private const int LED_PIN = 26;
         private GpioPin pin;
         private GpioPinValue pinValue;
         private DispatcherTimer timer;
